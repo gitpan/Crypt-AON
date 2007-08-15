@@ -3,7 +3,7 @@ package Crypt::AON;
 use warnings;
 use strict;
 use Crypt::OpenSSL::AES;
-use Crypt::AoN::Util qw/:all/;
+use Crypt::AON::Util qw/:all/;
 use Carp;
 use Crypt::Random qw/makerandom/;
 
@@ -13,11 +13,11 @@ Crypt::AON - All-Or-Nothing Encryption
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 SYNOPSIS
 
@@ -215,6 +215,8 @@ L<http://search.cpan.org/dist/Crypt-AON>
 =back
 
 =head1 ACKNOWLEDGEMENTS
+
+Thanks to Prof. Bulent Yener at RPI for his assistance.
 
 =head1 COPYRIGHT & LICENSE
 

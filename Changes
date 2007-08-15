@@ -1,5 +1,8 @@
 Revision history for Crypt-AON
 
+0.04	8/15/07 01:26
+		Change use Crypt::AoN::Util to Crypt::AON::Util
+
 0.03    8/15/07 00:34
         Change module name from Crypt::AoN to Crypt::AON to make it easier to type.  
 		Cleaned up member functions.  Still uses Crypt::AoN::Util, will change that over in next version.
