@@ -2,12 +2,12 @@ Crypt-AON
 
 VERSION
 
-	0.04
+	0.05
 
 CURRENT STATUS
 
 	This module is not currently fully functional.  There needs to be work done on the test cases written for all instances.  
-	Currently only 128 is supported for size of packets
+	Currently only 128 bits is supported for size of packets
 	I am not sure what needs to be done on the rest of the functions and if they are working.
 	Should probably release the other module to CPAN, cause it works, and tell Yener I have a version up on CPAN and for him to link to that website, and then when I am done with this better written module update it on CPAN, and tell Yener then to update his as well.
 

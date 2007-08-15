@@ -13,11 +13,11 @@ Crypt::AON - All-Or-Nothing Encryption
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 =head1 SYNOPSIS
 
@@ -32,7 +32,7 @@ our $VERSION = '0.04';
 
 =head1 CONSTANTS
 
-$SIZE = 128;
+$SIZE = 128 bits;
 
 =cut
 
