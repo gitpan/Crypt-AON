@@ -1,0 +1,7 @@
+Revision history for Crypt-AON
+
+0.03    8/15/07 00:34
+        Change module name from Crypt::AoN to Crypt::AON to make it easier to type.  
+		Cleaned up member functions.  Still uses Crypt::AoN::Util, will change that over in next version.
+		Uses 128 byte packet length and AES for encryption.
+

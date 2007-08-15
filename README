@@ -1,0 +1,49 @@
+Crypt-AON
+
+VERSION
+
+	0.03
+
+CURRENT STATUS
+
+	This module is not currently fully functional.  There needs to be work done on the test cases written for all instances.  
+	Currently only 128 is supported for size of packets
+	I am not sure what needs to be done on the rest of the functions and if they are working.
+	Should probably release the other module to CPAN, cause it works, and tell Yener I have a version up on CPAN and for him to link to that website, and then when I am done with this better written module update it on CPAN, and tell Yener then to update his as well.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the perldoc command.
+
+    perldoc Crypt::AON
+
+You can also look for information at:
+
+    Search CPAN
+        http://search.cpan.org/dist/Crypt-AON
+
+    CPAN Request Tracker:
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Crypt-AON
+
+    AnnoCPAN, annotated CPAN documentation:
+        http://annocpan.org/dist/Crypt-AON
+
+    CPAN Ratings:
+        http://cpanratings.perl.org/d/Crypt-AON
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2007 Timothy Zander
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
