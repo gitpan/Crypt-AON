@@ -1,5 +1,8 @@
 Revision history for Crypt-AON
 
+0.06	8/15/07 20:10
+		Fixed Makefile.PM so that it will require the needed packages now
+
 0.05	8/15/07 08:16
 		Fixed documentation to reflect correct size of packets
 

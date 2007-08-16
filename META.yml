@@ -1,10 +1,14 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Crypt-AON
-version:      0.05
+version:      0.06
 version_from: lib/Crypt/AON.pm
 installdirs:  site
 requires:
+    Carp:                          0
+    Crypt::AON::Util:              0
+    Crypt::OpenSSL::AES:           0
+    Crypt::Random:                 0
     Test::More:                    0
 
 distribution_type: module
