@@ -1,5 +1,8 @@
 Revision history for Crypt-AON
 
+0.07	8/15/07 20:15
+		Fixed POD so that is displays correctly now
+
 0.06	8/15/07 20:10
 		Fixed Makefile.PM so that it will require the needed packages now
 

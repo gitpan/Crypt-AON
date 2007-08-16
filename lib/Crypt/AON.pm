@@ -13,11 +13,11 @@ Crypt::AON - All-Or-Nothing Encryption
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 =head1 SYNOPSIS
 
@@ -41,6 +41,7 @@ my $SIZE = 128;
 =head1 FUNCTIONS
 
 =head2 new(K_0=>$K_0)
+
 Create AON object.  Good idea to provide K_0, which must be ascii encoded(characters) and of length given in size.  
 If K_0 is not given, you must retrieve it later with $AON->K_0() else you will not be able to decrypt the message.
 
